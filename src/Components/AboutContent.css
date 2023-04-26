@@ -1,0 +1,45 @@
+
+.about-sec {
+    text-align: center; 
+    max-width: 1000px; 
+    margin: 0px auto;
+    padding: 20px; 
+    
+  }
+  
+  h1 {
+    font-size: 28px; /* Set font size for heading */
+  }
+  
+  p {
+    font-size: 18px; /* Set font size for paragraph */
+    margin: 20px 0px; /* Add some margin at the bottom for spacing */
+    /* padding: 0px 23px 0px 90px; */
+  }
+  
+  .about-sec .btn {
+    display: inline-block; /* Display as inline block to center the button */
+    font-size: 16px; /* Set font size for the button */
+    padding: 10px 20px; /* Add padding to the button */
+    background-color: #007bff; /* Set background color for the button */
+    color: #fff; /* Set text color for the button */
+    text-decoration: none; /* Remove underline from the button */
+    border-radius: 5px; /* Add border radius to the button */
+  }
+  
+  /* Apply different styles for smaller screens (e.g., mobile devices) */
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 24px; /* Decrease font size for heading */
+    }
+    
+    p {
+      font-size: 16px; /* Decrease font size for paragraph */
+    }
+    
+    .about-sec  .btn {
+      font-size: 14px; /* Decrease font size for the button */
+      padding: 8px 16px; /* Decrease padding for the button */
+    }
+  }
+  

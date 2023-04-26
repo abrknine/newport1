@@ -1,0 +1,63 @@
+.mma  h1{
+    text-align: center;
+}
+.medi  h1{
+    text-align: center;
+}
+.Raps h1{
+   text-align: center;
+}
+.mma1{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin: 23px;
+}
+.mma1 img{
+    height: 300px;
+    width: 330px;
+}
+.Raps1 img{
+    height: 300px;
+    width: 330px;
+}
+.medi img{
+    height: 300px;
+    width: 330px;
+}
+.Raps1{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin: 23px;
+}
+.medi1{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    margin: 23px;
+}
+.Raps1 p{
+    margin: 50px 0px;
+}
+.mma1 p{
+    margin: 50px 0px;
+}
+.medi1 p{
+    margin: 50px 0px;
+}
+@media screen  and ( max-width: 640px){
+   
+    .Raps1{
+        flex-direction: column-reverse;
+    }
+    .medi1{
+        flex-direction: column;
+    
+    }
+    .mma1{
+        
+        flex-direction: column;
+    }
+
+}
