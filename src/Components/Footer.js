@@ -10,6 +10,7 @@ import {
   FaTwitterSquare,
   
 } from "react-icons/fa";
+import {SiLeetcode} from "react-icons/si"
 
 const Footer = () => {
   return (
@@ -74,6 +75,12 @@ const Footer = () => {
             </a>
             <a href="https://www.instagram.com/abhishek_67kindda/">
               <FaInstagram
+                size={20}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://leetcode.com/abhibah1234/">
+              <SiLeetcode
                 size={20}
                 style={{ color: "#fff", marginRight: "1rem" }}
               />
