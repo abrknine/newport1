@@ -11,9 +11,9 @@ import introimg from "../assets/cod.jpg"
         </div>
         <div className="content">
            <p>
-              HI I'M A FRONT-END DEVELOPER
+              HI I'M A FULLSTACK DEVELOPER
            </p>
-           <h1>React Developer 
+           <h1>MORE THAN MERN
             <div>
              <Link to ="/project" className="btn">Projects  </Link>
              <Link to ="/contact" className=" btn btn-light">Contact </Link>
