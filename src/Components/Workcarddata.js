@@ -6,6 +6,9 @@ import foodhub from "../assets/foodhub.jpg";
 import piggame from "../assets/piggame.jpg";
 import screenshot1 from "../assets/Screenshot (441).png";
 import screenshot2 from "../assets/Screenshot (444).png";
+import music from "../assets/music.png";  
+import bitcoin1 from "../assets/bitcoin1.png";
+import security from "../assets/security.png";
 
 
 const Workcarddata=[ 
@@ -21,22 +24,22 @@ const Workcarddata=[
     
   },
   {
-    imgsrc: screenshot2,
-    description: "An app for reading daily news, i made this by calling news api in both class as well as functional based componenet i learned componentdid mount methods here",
-    title:"News-app",
-    tags: ["React" ,"Bootstrap"],
+    imgsrc: music,
+    description: "A music app to play music and get lyrics of the song",
+    title:"Music-app",
+    tags: ["Next-js" ,"tailwind"],
     demoLink: "https://github.com/abrknine/piggame.github.io",
     codeLink: "https://github.com/abrknine/news-app",
     
   },
   {   
       
-      imgsrc: cartapp,
-       title:"Cart-app",
-       description: "An cart app to add and remove items we can add prices ang quantity to items too and get the total amount to pay",
-      tags: ["React",  "Bootstrap"],
-      demoLink: "http://abhi-kart.vercel.app/",
-      codeLink: "https://github.com/abrknine/abhi_kart"
+      imgsrc: bitcoin1,
+       title:"bitcoin-wallet-library",
+       description: "A library for creating bitcoin wallet and checking balance,transaction through it",
+      tags: ["Node",  "Express", "bitcoinjs-lib"],
+      demoLink: "https://github.com/abrknine/bitcoin-wallet-lib",
+      codeLink: "https://github.com/abrknine/bitcoin-wallet-lib"
     },
       {
         imgsrc:  codingbootcamp,
@@ -56,13 +59,13 @@ const Workcarddata=[
         codeLink: "https://github.com/abrknine/foodwebsite.github.io",
       },
       {
-        imgsrc: piggame,
-         description: "A dice game  for two players where who gets 50 first wins the game",
-        title:"Pig-game",
+        imgsrc: security,
+         description: "My previous internship work with fullstack development for a cleint",
+        title:"security-website",
 
-        tags: [ "Html", "Css","vanilla-js"],
-        demoLink: "https://piggame-github-io.vercel.app/",
-        codeLink: "https://github.com/abrknine/piggame.github.io",
+        tags: [ "Mysql", "react","express" ,"node"],
+        demoLink: "https://safeyourweb.com/",
+        codeLink: "https://safeyourweb.com/",
       },
 ] 
 export default Workcarddata
