@@ -50,8 +50,8 @@ const Footer = () => {
           <h4>About me</h4>
 
           <p>
-            I am abhishek bhaukhandi a front-end developer(aspiring fullstack),I
-            love to code the design using my react and css skills
+            I am Abhishek bhaukhandi a Fullstack developer,I
+            love to code and solve problems. I am a quick learner and always try to learn new things.
           </p>
           <div className="social">
             <a href="https://github.com/abrknine">

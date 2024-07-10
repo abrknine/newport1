@@ -2,6 +2,7 @@ import "./Heroimg.css";
 import React from 'react'
 import introimg from "../assets/cod.jpg"
  import { Link } from "react-router-dom"
+ import abhishek from "../assets/abhishek_resume.pdf"
 
   const Heroimg = () => {
   return (
@@ -17,6 +18,9 @@ import introimg from "../assets/cod.jpg"
             <div>
              <Link to ="/project" className="btn">Projects  </Link>
              <Link to ="/contact" className=" btn btn-light">Contact </Link>
+            </div>
+            <div>
+            <a href={abhishek} download className="btn bg-green-500 text-white py-2 px-4 rounded hover:bg-green-600"> Resume</a>
             </div>
 
            </h1>

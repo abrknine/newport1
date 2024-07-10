@@ -27,6 +27,19 @@
     border-radius: 5px; /* Add border radius to the button */
   }
   
+  .video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.centered-video {
+    width: 80%; /* Adjust this value to reduce width */
+    max-width: 600px; /* Set a maximum width if needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
   /* Apply different styles for smaller screens (e.g., mobile devices) */
   @media (max-width: 767px) {
     h1 {
