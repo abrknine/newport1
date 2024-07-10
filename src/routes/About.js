@@ -26,7 +26,7 @@ const About = () => {
   return (
     <div>
     <Navbar/>
-    <Heroimg2 heading="ABOUT" text="Im a passionate Front-end Developer" />
+    <Heroimg2 heading="ABOUT" text="Im a passionate Fullstack Developer" />
     <AboutContent />
     <Carousel images={images} names={names}/>
     {/* <SimpleSwiper/> */}
